@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/jquery.fancybox.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
@@ -17,39 +17,305 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__container">
-        <div class="header__nav">
-          <div class="logo">
-            <img src="./images/logo.svg" alt="logo" />
-          </div>
-          <div class="header__navbar">
-            <ul class="header__links">
-              <li>
-                <a href="#">Product</a>
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <img class="logo__img" src="./images/logo.png" alt="logo" />
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Product</a>
               </li>
-              <li>
-                <a href="#">Customers</a>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Customers</a>
               </li>
-              <li>
-                <a href="#">Pricing</a>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Pricing</a>
               </li>
-              <li>
-                <a href="#">Resources</a>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Resources</a>
               </li>
             </ul>
+            <div class="user-nav">
+              <a class="user-nav__link btn"> Sign In</a>
+              <a class="user-nav__link btn"> Sign Up</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <article class="header__content">
+        <div class="header__text-container">
+          <div class="header__content-title">
+            The Design Thinking superpowers
           </div>
-          <div class="header__signup-container">
-            <a class="header__sign-in">
-              Sign In
-            </a>
-            <a class="header__sign-up">
-              Sign Up
-            </a>
+          <p class="header__content-text">
+            Tools, tutorials, design and innovation experts, all in one place!
+            The most intuitive way to imagine your next user experience.
+          </p>
+          <div class="header__content-btns">
+            <a class="header__start-btn btn" href="#">Get started</a>
+            <a class="header__watch-btn btn" href="#">Watch the Video</a>
+          </div>
+        </div>
+        <div class="header__content-image"></div>
+      </article>
+    </header>
+    <section class="tests">
+      <div class="tests__title title">
+        We design tools to unveil your superpowers
+      </div>
+      <div class="tests__inner">
+        <div class="tests__container">
+          <div class="tests__item">
+            <div class="tests__item-image">
+              <img src="./images/tests-icon-1.svg" alt="" />
+            </div>
+            <div class="tests__item-title">First click tests</div>
+            <div class="tests__item-text text">
+              While most people enjoy casino gambling,
+            </div>
+          </div>
+          <div class="tests__item">
+            <div class="tests__item-image">
+              <img src="./images/tests-icon-2.svg" alt="" />
+            </div>
+            <div class="tests__item-title">Design surveys</div>
+            <div class="tests__item-text text">
+              Sports betting, lottery and bingo playing for the fun
+            </div>
+          </div>
+          <div class="tests__item">
+            <div class="tests__item-image">
+              <img src="./images/tests-icon-3.svg" alt="" />
+            </div>
+            <div class="tests__item-title">Preference tests</div>
+            <div class="tests__item-text text">
+              The Myspace page defines the individual.
+            </div>
+          </div>
+          <div class="tests__item">
+            <div class="tests__item-image">
+              <img src="./images/tests-icon-4.svg" alt="" />
+            </div>
+            <div class="tests__item-title">Five second tests</div>
+            <div class="tests__item-text text">
+              Personal choices and the overall personality of the person.
+            </div>
+          </div>
+        </div>
+        <div class="tests__register-btn-container">
+          <a class="tests__register-btn btn" href="#">SIGN UP NOW</a>
+        </div>
+      </div>
+    </section>
+    <section class="professionals">
+      <div class="inner">
+        <div class="professionals__content">
+          <p class="professionals__suptitle">Effortless Validation for</p>
+          <div class="professionals__title title">Design Professionals</div>
+
+          <p class="text">
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <p class="text text-bold">Accessory makers</p>
+          <p class="text">
+            While most people enjoy casino gambling, sports betting, lottery and
+            bingo playing for the fun
+          </p>
+          <p class="text text-bold">Alterationists</p>
+          <p class="text">
+            If you are looking for a new way to promote your business that won’t
+            cost you more money,
+          </p>
+          <p class="text text-bold">Custom Design designers</p>
+          <p class="text">
+            If you are looking for a new way to promote your business that won’t
+            cost you more money,
+          </p>
+        </div>
+        <div class="professionals__image"></div>
+      </div>
+    </section>
+    <section class="manager">
+      <div class="manager__inner inner">
+        <div class="manager__image"></div>
+        <div class="manager__content">
+          <p class="manager__suptitle">Easier decision making for</p>
+          <div class="manager__title title">Product Managers</div>
+          <p class="text">
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <div class="manager__checkmark">
+            <p class="checkmark text">
+              Never worry about overpaying for your energy again.
+            </p>
+            <p class="checkmark text">
+              We will only switch you to energy companies that we trust and will
+              treat you right
+            </p>
+            <p class="checkmark text">
+              We track the markets daily and know where the savings are.
+            </p>
           </div>
         </div>
       </div>
-    </header>
+    </section>
+    <section class="marketers">
+      <div class="marketers__inner inner">
+        <div class="marketers__content text-content">
+          <div class="marketers__suptitle text suptitle">Optimisation for</div>
+          <div class="marketers__title title">Marketers</div>
+          <p class="marketers__text text">
+            Few would argue that, despite the advancements of feminism over the
+            past three decades, women still face a double standard when it comes
+            to their behavior.
+          </p>
+          <p class="marketers__text text-bold">Accessory makers</p>
+          <p class="marketers__text text">
+            While most people enjoy casino gambling, sports betting, lottery and
+            bingo playing for the fun
+          </p>
+          <p class="marketers__text text-bold">Alterationists</p>
+          <p class="marketers__text text">
+            If you are looking for a new way to promote your business that won’t
+            cost you more money,
+          </p>
+          <p class="marketers__text text-bold">Custom Design designers</p>
+          <p class="marketers__text text">
+            If you are looking for a new way to promote your business that won’t
+            cost you more money,
+          </p>
+        </div>
+        <div class="marketers__image image"></div>
+      </div>
+    </section>
 
+    <section class="hero">
+      <div class="hero__inner">
+        <div class="hero__super">
+          <div class="hero__super-title title">Need a super hero?</div>
+          <div class="hero__super-text text">
+            Do you require some help for your project: Conception workshop,
+            prototyping, marketing strategy, landing page, Ux/UI?
+          </div>
+          <a class="hero__super-btn btn" href="#">Contact our expert</a>
+        </div>
+        <div class="hero__content">
+          <div class="hero__content-message">
+            <div class="thought">I can take care of your pitch</div>
+            <img src="./images/avator-icon-1.png" alt="" />
+          </div>
+          <div class="hero__content-message">
+            <div class="thought">I can help marketing strategy</div>
+            <img src="./images/avator-icon-2.png" alt="" />
+          </div>
+          <div class="hero__content-message">
+            <div class="thought">I can design you website</div>
+            <img src="./images/avator-icon-3.png" alt="" />
+          </div>
+          <div class="hero__content-message">
+            <div class="thought">I can prototype your app</div>
+            <img src="./images/avator-icon-4.png" alt="" />
+          </div>
+          <div class="hero__content-message">
+            <div class="thought">I will define the profile of your users</div>
+            <img src="./images/avator-icon-5.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="marketing">
+      <div class="marketing__inner">
+        <div class="marketing__title title">Marketing Strategies</div>
+        <div class="marketing__subtitle text">
+          Join 40,000+ other marketers and get proven strategies on email
+          marketing
+        </div>
+        <div class="marketing__slider-container">
+          <div class="marketing__slider-item">
+            <img
+              class="marketing-slider-img"
+              src="./images/slider-img-1.svg"
+              alt=""
+            />
+            <div class="marketing__slider-text">
+              By <span>Abdullah</span> | 03 March 2019
+            </div>
+            <div class="marketing__slider-title">
+              Increasing Prosperity With Positive Thinking
+            </div>
+          </div>
+          <div class="marketing__slider-item">
+            <img
+              class="marketing-slider-img"
+              src="./images/slider-img-2.svg"
+              alt=""
+            />
+            <div class="marketing__slider-text">
+              By <span>Abdullah</span> | 03 March 2019
+            </div>
+            <div class="marketing__slider-title">
+              Motivation Is The First Step To Success
+            </div>
+          </div>
+          <div class="marketing__slider-item">
+            <img
+              class="marketing-slider-img"
+              src="./images/slider-img-3.svg"
+              alt=""
+            />
+            <div class="marketing__slider-text">
+              By <span>Abdullah</span> | 03 March 2019
+            </div>
+            <div class="marketing__slider-title">
+              Success Steps For Your Personal Or Business Life
+            </div>
+          </div>
+        </div>
+        <div class="marketing__slider-dots">
+          <div class="slider-dot"></div>
+          <div class="slider-dot"></div>
+          <div class="slider-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <div class="footer__quick-links">
+          <ul class="links">
+            <a href="#">About Us</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#">FAQ</a>
+          </ul>
+
+          <ul class="links">
+            <a href="#">Disclaimer</a>
+            <a href="#">Financing</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </ul>
+
+          <form action="#" class="footer__phone-form">
+            <input
+              class="phone-input"
+              placeholder="Enter your phone"
+              type="text"
+              name="phone"
+              id="phone"
+            />
+            <button class="btn" type="submit">Sign up Now</button>
+          </form>
+        </div>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>

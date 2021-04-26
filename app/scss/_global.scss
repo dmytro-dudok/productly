@@ -1,0 +1,132 @@
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    max-width: 539px;
+    margin: 3px auto 22px;
+
+}
+
+.text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    margin-bottom: 25px;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border-radius: 4px;
+    display: inline-block;
+    background: #FF9900;
+    width: 175px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    content: '';
+    height: 35px;
+    width: 35px;
+    background-image: url('../images/checkmark-icon.svg');
+    background-repeat: no-repeat;
+
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    min-height: 521px;
+    width: 100%;
+    background-image: url('../images/manager-bg.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    flex: 50%;
+
+}
+
+.text-content {
+    flex: 50%;
+    max-width: 486px;
+}
+
+.suptitle {
+    margin-bottom: 3px;
+}
+
+.thought {
+    display: flex;
+    background-color: #fff;
+    padding: 0 21px;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 26.5px;
+    min-width: 240px;
+    max-width: 351px;
+    min-height: 53px;
+    line-height: 24px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    z-index: 1;
+}
+
+
+
+.thought::before,
+::after
+{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 1;
+    border-top: 1px solid #fff;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.thought::before{
+    width: 17px;
+    height: 17px;
+    
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+    top: 42px;
+    right: 17%;
+}
+
+.thought::after{
+    width: 9px;
+    height: 9px;
+    top: 61px;
+    right: 14%;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+}
